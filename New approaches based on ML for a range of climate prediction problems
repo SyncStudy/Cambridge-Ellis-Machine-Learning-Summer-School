@@ -1,0 +1,205 @@
+# New approaches based on ML for a range of climate prediction problems
+
+## Authors
+
+- Emily shuckburgh
+- Scott hosking
+- Risa ueno
+- rachel furner
+- Dan jones
+- Tim summers
+- Erik MAckie
+- Tudor suciu
+- Tom Andersson
+- Rich Turner
+- Will Tebbutt
+- Robert Rouse
+
+## Need actionable information on climate risk
+
+- vast datasets
+
+## IPCC Climate change 
+
+- climate change 2021
+  - the physical science basis
+    - summary for policymakers
+- climate change 2022
+  - impacts, adaption and vulnerability
+- Climate change 2022
+  - mitigation of climage change
+
+## Weather and climate models
+
+$$
+\frac{Du}{Dt}+\frac{1}{\rho}\frac{\part p}{\part x}-fv=\mathcal{F}_x
+$$
+
+$$
+\frac{Dv}{Dt}+\frac{1}{\rho}\frac{\part p}{\part y}+fu=\mathcal{F}_y
+$$
+
+$$
+\frac{1}{\rho}\frac{\part p}{\part z}+g=0
+$$
+
+- physics-based simulators
+- equations in weather and climate models
+
+---
+
+- numerical weather forecast using a slide rule
+- 6 hour forecast of pressure and wind 
+- started from analysis of the conditions at 
+  - 7 am on 20th May 
+
+---
+
+- weather prediction by numerical process
+  - imagine a large hall like a theatre
+- the walls of this chamber are painted to form a map of the globe
+- Myriad computers are at work upon the weather
+- 64000 computers would be needed to race the weather for the whole globe
+
+---
+
+- institute 
+
+---
+
+- The UK Met office to takes in over 200 billion weather observations from all over the world every day
+- which it then takes as a starting point for running an atom
+
+---
+
+- Global surface temperature change relative to 1850-1900
+- september arctic sea ice area
+
+---
+
+- SSP5-8.5
+- SSP3-7.0
+- SSP2-4.5
+- SSP1-2.6
+- SSP1-1.9
+
+---
+
+## Climate-related modelling developments
+
+- High resolution modelling
+  - Ambitious partnership needed for reliable climate prediction
+- Digital Twin
+  - Layer 1
+    - About us
+    - learn
+    - projects
+    - Get involved
+  - Layer 2
+    - Digital twin hub
+    - what is creed?
+    - News
+    - Technical reports
+    - Recommendations and resources
+    - Acknowledgements
+- Machine learning
+  - do more the 
+
+## What cambridge are doing in the climate science related research
+
+- datawave
+  - Use ML to develop **data-driven gravity wave (GW) parameterizations**
+  - to more accurate and efficiently represent GW momentum fluxes
+  - challenge
+    - fast inter language interoperation (Python-Fortran)
+- sasip
+  - Use ML to develop scale aware continuum sea ice model
+  - that faithfully represents sea ice dynamics and thermodynamics
+  - challenge
+    - parallelisation strategies including land mask
+- lemontree
+  - Develop next-generation model of the **terrestrial biosphere**
+  - its interactions with the carbon cycle 
+  - water cycle and climate
+  - challenges
+    - new Python model 
+    - Backlog unprocessed data
+    - (Fluent)
+- M2LinES
+  - Use scientific and interpretable ML to capture unaccounted physical processes at coupled air sea ice interface
+  - challenges
+    - community latform for open data processing and analysis
+
+---
+
+## Four examples
+
+- Sea ice forecast
+  - CNNs out performs dynamical forecast and linear trend at lead of 2 months and above
+- heatwave forecast
+  - combine past observations and climate simulations to improve forecasts of extremes
+- Ocean forecast
+  - explore physical basis for data-driven models
+- hydrological forecast
+  - improve flood
+
+## Example 1: seasonal sea ice forecast
+
+- background
+  - arctic sea has a strong season cycle 
+  - also a strong downward trend over recent decades
+  - currently physics-based dunamical models and simple statistical forecasts
+- goal
+  - forecast sea ice for next six months using data driven deep learning approach
+  - has implications for NH
+- Approach
+  - Input
+    - sea ice concentration
+    - SIC
+    - 11 climae variable variables
+    - statistical SIC forecast
+      - 50 channel input to ensemble of U-Net networks
+  - task
+    - classification into open water
+    - SIX <= 15% 
+    - marginal ice
+      - 15% < SIX < 
+
+## Example 2: heatwave forecast
+
+- goal
+  - generate city scale projections of 
+  - Extreme temperature by postprocessing
+  - climate model simulation at specific location that can then be used to access risk through supply chains
+  - transport routes
+  - labour productivity 
+  - infrastructure 
+  - transport
+  - mortability all impacted by extreme heat
+- challenge
+  - raw output from climate model
+
+- input
+
+$$
+T, S, \underline{u}, 
+$$
+
+## Example 4 hydrological forecast
+
+$$
+Y=f(\theta_1, \theta_2, ..., \theta_n, \psi_1, \psi_2, \psi_3)
+$$
+
+## Extend further to account for correlated risk and map to data on impacts
+
+- Cairo on verge of energy crisis
+  - what will future demand be for air conditioning?
+  - How will this impact the energy network?
+- Design regulations for
+  - Sustainable urban dranage
+  - thermal comfort in buildings
+- How volunerable is a country or system to climate disruptions
+
+---
+
