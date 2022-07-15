@@ -1,0 +1,177 @@
+# Statistical inference
+
+$$
+f_1=\mathcal{N}(\mu, \sigma)
+$$
+
+$$
+\begin{matrix} 0 & 1 \\ 1 & 0 \end{matrix}
+\quad
+\begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}
+\quad
+\begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix}
+\quad
+\begin{Bmatrix} 1 & 0 \\ 0 & -1 \end{Bmatrix}
+\quad
+\begin{vmatrix} a & b \\ c & d \end{vmatrix}
+\quad
+\begin{Vmatrix} i & 0 \\ 0 & -i \end{Vmatrix}
+$$
+
+$$
+\begin{bmatrix} 0 & -1 \\ 1 & 0 \end{bmatrix}
+$$
+
+$$
+p(f)=\mathcal{N}()
+$$
+
+$$
+p(x_1,x_2)=\mathcal{N}\begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}
+$$
+
+$$
+\mathcal{N}_{t_1*t_k}(F_1 \times * \times F_k)= 
+$$
+
+$$
+\mathcal{GP}(\cdot, \cdot)
+$$
+
+$$
+\infin
+$$
+
+$$
+M \in 
+$$
+
+$$
+p(f)= \mathcal{N} \begin{bmatrix} a & b & c \\ 1 & 2 & 3 \end{bmatrix}
+$$
+
+$$
+k_{ij}=k(x_i, x_j)
+$$
+
+- handle 
+- parameterise the covariance as a function of the input
+- index set of the measure is the uncountable infinity
+- handle to input your knowledge in to 
+
+$$
+p(f_* |f)=\frac{p(f,f_*)}{}
+$$
+
+$$
+\int p(f,f_*)df_*=\int p(f)
+$$
+
+$$
+p(f,f_*)=p(f_*|f)p(f)
+$$
+
+$$
+p(f,f_*)
+$$
+
+$$
+p(f_*|f)
+$$
+
+$$
+p(f_*|x_*,x,f)=\mathcal{N}
+$$
+
+- predictive posterior samples
+
+## Non parametrics
+
+- infinite capacity by parametrising the model 
+
+## Kolmogrovs Extension Theorem
+
+$$
+F_i \in \mathcal{R}^n
+$$
+
+$$
+v_{t_\pi}
+$$
+
+## Are gaussian processes good parametrisation
+
+
+$$
+f(x)=f_L \cdot f_{L-1} \cdot \cdot \cdot \cdot f_0(x)
+$$
+
+## Composite GP Step
+
+- step function differentiable
+- GP how can you learn it
+- Deep GP
+- Each layer is infinitely differentable
+- Functions
+- No differentables
+- Fit out 
+- Tenth moving functions
+- realization of the domain
+- GP community 
+- Covariance matrix
+- Learn a whole matrix
+- How do you plot the samples
+- Step function
+
+## Best of both worlds?
+
+- Composite GPs
+  - potentially intersting but inference is a huge issue
+    - BNN worst of both worlds
+      - a prior we do not understand
+        - in a structure we do not get
+        - means that we are effectively spending a huge computational overload to implement a regulariser
+
+## RL
+
+$$
+p(s_{t+1})=\int p(s_{t+1}|f,s_t,a_t)p(a_t)
+$$
+
+## Windfarms
+
+- how things interact
+- predict energy from windfarms
+- physics
+- depose things together
+
+## Composite model
+
+$$
+f_1(x)
+$$
+
+$$
+f_2(x)
+$$
+
+$$
+f_3(x)
+$$
+
+$$
+f_2 \circ f_1(x)
+$$
+
+$$
+f_3 \circ f_2 \circ f_1(x) 
+$$
+
+- inputs
+- Rotation 1
+- translation 1
+- rotation 2
+- translation 2
+
+## EOF
+
